@@ -1,0 +1,17 @@
+option {
+  padding: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    width: 10rem !important;
+  }
+
+  .sidebar .nav-item .nav-link {
+    width: 10rem;
+  }
+}
