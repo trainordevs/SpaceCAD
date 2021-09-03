@@ -54,3 +54,24 @@
                     </ul>
                 </nav>
                 <div class="container-fluid">
+                    <?php
+                        if (isset($_SESSION['flash_message'])) {
+                            switch($_SESSION['flash_status']) {
+                                case 'info':
+                                    echo '<div class="alert alert-info" role="alert">';
+                                    break;
+                                case 'error':
+                                    echo '<div class="alert alert-danger" role="alert">';
+                                    break;
+                                case 'success':
+                                    echo '<div class="alert alert-success" role="alert">';
+                                    break;
+                                default:
+                                    echo '<div class="alert alert-info" role="alert">';
+                            }
+
+                            echo $_SESSION['flash_message'];
+                            echo "</div>";
+                            FlashMessage::clearMessage();
+                        }
+                    ?>

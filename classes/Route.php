@@ -8,7 +8,7 @@
             self::$validRoutes[] = $route;
 
             if (!isset($_GET['url'])) {
-                Home::CreateView('home');
+                Home::init();
             } else if ($_GET['url'] == $route) {
                 $function->__invoke();
             }

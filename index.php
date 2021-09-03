@@ -1,4 +1,6 @@
 <?php
+    session_start();
+
     // PHP Autoloads any classes, controllers, or models that we have.
     spl_autoload_register(function ($classname) {
         if(file_exists('./classes/' . $classname . '.php')) {
