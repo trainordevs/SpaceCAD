@@ -1,23 +1,31 @@
 <?php
-    class Database {
-        public static $host = '127.0.0.1';
-        public static $dbName = 'exampledb';
-        public static $username = 'root';
-        public static $password = '';
-
-        private static function connect() {
-            $pdo = new PDO("mysql:host=" . self::$host . ";dbname=" . self::$dbName . ";charset=utf8", self::$username, self::$password);
-            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            return $pdo;
-        }
-
-        public static function query($query, $params = array()) {
-            $statement = self::connect()->prepare($query);
-            $statement->execute($params);
-
-            if(explode(' ', $query)[0] == 'SELECT') {
-                $data = $statement->fetchAll();
-                return $data;
+    class Database extends PDO {
+        protected static $instance;
+        protected $cache;
+        
+        static function getInstance() {
+            if(!self::$instance) {
+                self::$instance = new Database();
             }
+            return self::$instance;
+        }
+    
+        function __construct() {
+            parent::__construct('mysql:dbname=' . DB_NAME . ';host=' . DB_HOST . ';', DB_USER, DB_PASS);
+            $this->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $this->cache = array();
+        }
+        
+        function getPreparedStatment($query) {
+            $hash = md5($query);
+            if(!isset($this->cache[$hash])) {
+                $this->cache[$hash] = $this->prepare($query);
+            }
+            return $this->cache[$hash];
+        }
+        
+        function __destruct() {
+            $this->cache = NULL;
         }
     }
+?>
