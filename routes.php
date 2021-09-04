@@ -7,6 +7,14 @@
         Home::createVehicle();
     });
 
+    Route::set('firearm/create', function() {
+        Home::createFirearm();
+    });
+
+    Route::set('search', function() {
+        Home::search();
+    });
+
     Route::set('about', function() {
         About::CreateView('about');
     });
