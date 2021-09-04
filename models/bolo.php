@@ -1,6 +1,6 @@
 <?php
     class BOLO extends Model {
-        protected static $tableName = TABLE_FIREARMS;
+        protected static $tableName = TABLE_BOLOS;
         protected static $primaryKey = 'id';
 
         function getId() {
