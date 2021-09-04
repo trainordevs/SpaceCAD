@@ -58,16 +58,16 @@
                         if (isset($_SESSION['flash_message'])) {
                             switch($_SESSION['flash_status']) {
                                 case 'info':
-                                    echo '<div class="alert alert-info" role="alert">';
+                                    echo '<div class="alert alert-info text-center" role="alert"><font size="6"><strong>Information</strong></font><br />';
                                     break;
                                 case 'error':
-                                    echo '<div class="alert alert-danger" role="alert">';
+                                    echo '<div class="alert alert-danger text-center" role="alert"><font size="6"><strong>Error</strong></font><br />';
                                     break;
                                 case 'success':
-                                    echo '<div class="alert alert-success" role="alert">';
+                                    echo '<div class="alert alert-success text-center" role="alert"><font size="6"><strong>Success</strong></font><br />';
                                     break;
                                 default:
-                                    echo '<div class="alert alert-info" role="alert">';
+                                    echo '<div class="alert alert-info text-center" role="alert"><font size="6"><strong>Information</strong></font><br />';
                             }
 
                             echo $_SESSION['flash_message'];
