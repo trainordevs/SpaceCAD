@@ -8,8 +8,7 @@
             self::$validRoutes[] = $route;
 
             if (!isset($_GET['url'])) {
-                $_GET['url'] = '';
-                $function->__invoke();
+                Home::init();
             } else if ($_GET['url'] == $route) {
                 $function->__invoke();
             }
