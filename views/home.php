@@ -94,25 +94,27 @@
                         <hr>
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="home">
-                                <form class="user">
+                                <form class="user" action="/civilian/create" method="POST">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="exampleInputEmail"
-                                            aria-describedby="emailHelp" placeholder="Full Name">
+                                        <input type="text" class="form-control" id="fullName" name="fullName"
+                                            placeholder="Full Name" required>
                                     </div>
                                     <div class="form-group">
-                                        <select class="form-control form-select" aria-label="Please select a gender...">
+                                        <select class="form-control form-select" aria-label="Please select a gender..."
+                                            id="gender" name="gender" required>
                                             <option selected disabled>Please select a gender...</option>
                                             <option value="male">Male</option>
                                             <option value="female">Female</option>
                                         </select>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="datepicker"
-                                            placeholder="Date of Birth">
+                                        <input type="text" class="form-control" id="datepicker" name="datepicker"
+                                            placeholder="Date of Birth" required>
                                     </div>
                                     <div class="form-group">
                                         <select class="form-control form-select"
-                                            aria-label="Please select license status...">
+                                            aria-label="Please select license status..." id="license" name="license"
+                                            required>
                                             <option selected disabled>Please select license status...</option>
                                             <option value="valid">Valid</option>
                                             <option value="suspended">Suspended</option>
@@ -120,26 +122,27 @@
                                             <option value="none">None</option>
                                         </select>
                                     </div>
-                                    <a href="index.html" class="btn btn-primary btn-user btn-block">Create</a>
+                                    <input type="submit" class="btn btn-primary btn-user btn-block" value="Create">
                                 </form>
                             </div>
                             <div class="tab-pane fade" id="profile">
-                                <form class="user">
+                                <form class="user" action="/vehicle/create" method="POST">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="exampleInputEmail"
-                                            aria-describedby="emailHelp" placeholder="Plate No.">
+                                        <input type="text" class="form-control" id="plateNo" name="plateNo"
+                                            placeholder="Plate No." required>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="exampleInputEmail"
-                                            aria-describedby="emailHelp" placeholder="Make">
+                                        <input type="text" class="form-control" id="make" name="make" placeholder="Make"
+                                            required>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="exampleInputEmail"
-                                            aria-describedby="emailHelp" placeholder="Model">
+                                        <input type="text" class="form-control" id="model" name="model"
+                                            placeholder="Model" required>
                                     </div>
                                     <div class="form-group">
                                         <select class="form-control form-select"
-                                            aria-label="Please select a registration status...">
+                                            aria-label="Please select a registration status..." id="registration"
+                                            name="registration" required>
                                             <option selected disabled>Please select a registration status...</option>
                                             <option value="valid">Valid</option>
                                             <option value="invalid">In-valid</option>
@@ -147,7 +150,8 @@
                                     </div>
                                     <div class="form-group">
                                         <select class="form-control form-select"
-                                            aria-label="Please select a registration status...">
+                                            aria-label="Please select a insurance status..." id="insurance"
+                                            name="insurance" required>
                                             <option selected disabled>Please select an insurance status...</option>
                                             <option value="valid">Valid</option>
                                             <option value="invalid">In-valid</option>
@@ -155,12 +159,13 @@
                                     </div>
                                     <div class="form-group">
                                         <select class="form-control form-select"
-                                            aria-label="Please select a registration status...">
+                                            aria-label="Please select the registered owner..." id="owner" name="owner"
+                                            required>
                                             <option selected disabled>Please select the registered owner...</option>
                                             <option value="1">Mark Wolfy</option>
                                         </select>
                                     </div>
-                                    <a href="index.html" class="btn btn-primary btn-user btn-block">Create</a>
+                                    <input type="submit" class="btn btn-primary btn-user btn-block" value="Create">
                                 </form>
                             </div>
                             <div class="tab-pane fade" id="messages">
