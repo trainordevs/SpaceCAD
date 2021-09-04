@@ -18,3 +18,7 @@
     Route::set('about', function() {
         About::CreateView('about');
     });
+
+    Route::set('account/login', function() {
+        Account::login();
+    });
