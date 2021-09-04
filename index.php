@@ -15,5 +15,7 @@
         }
     });
 
+    Database::getInstance()->connectionTest();
+
     // Set our routes.
     require_once 'routes.php';

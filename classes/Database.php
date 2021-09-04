@@ -11,9 +11,21 @@
         }
     
         function __construct() {
-            parent::__construct('mysql:dbname=' . DB_NAME . ';host=' . DB_HOST . ';', DB_USER, DB_PASS);
-            $this->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            $this->cache = array();
+            try {
+                parent::__construct('mysql:dbname=' . DB_NAME . ';host=' . DB_HOST . ';', DB_USER, DB_PASS);
+                $this->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                $this->cache = array();
+            } catch (PDOException $e) {
+                die("There was an error with the database connection.");
+            }
+        }
+
+        function connectionTest() {
+            try {
+                self::$instance->query("SELECT 1");
+            } catch (PDOException $e) {
+                exit('There was an error with the database connection.');
+            }
         }
         
         function getPreparedStatement($query) {
