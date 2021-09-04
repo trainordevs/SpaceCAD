@@ -53,4 +53,61 @@
                 FlashMessage::setError("Create Vehicle: There was an error creating the vehicle.", '/');
             }
         }
+
+        public static function createFirearm() {
+            $fields = array('serial', 'type', 'registration', 'owner');
+            foreach ($fields as $field) {
+                if(!isset($_POST[$field]) || is_null($_POST[$field]) || empty($_POST[$field])) {
+                    FlashMessage::setError("Create Firearm: Please fill out the entire form.", '/');
+                    die();
+                }
+            }
+
+            try {
+                $firearm = new Firearm();
+                $firearm->create([
+                    'serial' => htmlentities($_POST['serial'], ENT_QUOTES, 'UTF-8'),
+                    'type' => htmlentities($_POST['type'], ENT_QUOTES, 'UTF-8'),
+                    'registration' => htmlentities($_POST['registration'], ENT_QUOTES, 'UTF-8'),
+                    'owner' => htmlentities($_POST['owner'], ENT_QUOTES, 'UTF-8'),
+                ]);
+                FlashMessage::setSuccess("Create Firearm: Firearm saved.", '/');
+            } catch (Exception $e) {
+                FlashMessage::setError("Create Firearm: There was an error creating the firearm.", '/');
+            }
+        }
+
+        public static function search() {
+            $firearms = Firearm::getLike(['serial' => $_POST['search']]);
+            $civilians = Civilian::getLike(['fullname' => $_POST['search']]);
+            $vehicles = Vehicle::getLike(['plate' => $_POST['search']]);
+            
+            $result = "<hr>";
+
+            if(!empty($firearms)) {
+                $result .= "<p class='text-center'><strong>Firearms</strong></p>";
+                foreach ($firearms as $firearm) {
+                    $result .= "<p><a href='#'>View</a> - " . $firearm['serial'] . "</p>";
+                }
+                $result .= "<hr>";
+            }
+
+            if(!empty($civilians)) {
+                $result .= "<p class='text-center'><strong>Civilians</strong></p>";
+                foreach ($civilians as $civilian) {
+                    $result .= "<p><a href='#'>View</a> - " . $civilian['fullname'] . " (DOB: " . $civilian['dob'] . ")</p>";
+                }
+                $result .= "<hr>";
+            }
+
+            if(!empty($vehicles)) {
+                $result .= "<p class='text-center'><strong>Vehicles</strong></p>";
+                foreach ($vehicles as $vehicle) {
+                    $result .= "<p><a href='#'>View</a> - " . $vehicle['plate'] . " (" . $vehicle['make'] . " " . $vehicle['model'] . ")</p>";
+                }
+                $result .= "<hr>";
+            }
+
+            echo rtrim($result, '<hr>');
+        }
     }
