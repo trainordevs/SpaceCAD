@@ -118,7 +118,7 @@
                                             <option selected disabled>Please select license status...</option>
                                             <option value="valid">Valid</option>
                                             <option value="suspended">Suspended</option>
-                                            <option value="perrev">Permanently Revoked</option>
+                                            <option value="revoked">Permanently Revoked</option>
                                             <option value="none">None</option>
                                         </select>
                                     </div>
@@ -169,30 +169,30 @@
                                 </form>
                             </div>
                             <div class="tab-pane fade" id="messages">
-                                <form class="user">
+                                <form class="user" action="/firearm/create" method="POST">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="exampleInputEmail"
-                                            aria-describedby="emailHelp" placeholder="Serial No.">
+                                        <input type="text" class="form-control" id="serial"
+                                            name="serial" placeholder="Serial No." required>
                                     </div>
                                     <div class="form-group">
                                         <select class="form-control form-select"
-                                            aria-label="Please select a registration status...">
+                                            aria-label="Please select a weapon type..." id="type" name="type" required>
                                             <option selected disabled>Please select a weapon type...</option>
-                                            <option value="valid">Melee</option>
-                                            <option value="valid">Handgun</option>
-                                            <option value="valid">Shotgun</option>
-                                            <option value="valid">Submachine Gun</option>
-                                            <option value="valid">Light Machine Gun</option>
-                                            <option value="valid">Assault Rifle</option>
-                                            <option value="valid">Sniper Rifle</option>
-                                            <option value="valid">Heavy Weapon</option>
-                                            <option value="valid">Thrown Weapon</option>
-                                            <option value="valid">Special Weapon</option>
+                                            <option value="melee">Melee</option>
+                                            <option value="handgun">Handgun</option>
+                                            <option value="shotgun">Shotgun</option>
+                                            <option value="smg">Submachine Gun</option>
+                                            <option value="lmg">Light Machine Gun</option>
+                                            <option value="ar">Assault Rifle</option>
+                                            <option value="sr">Sniper Rifle</option>
+                                            <option value="hw">Heavy Weapon</option>
+                                            <option value="tw">Thrown Weapon</option>
+                                            <option value="sw">Special Weapon</option>
                                         </select>
                                     </div>
                                     <div class="form-group">
                                         <select class="form-control form-select"
-                                            aria-label="Please select a registration status...">
+                                            aria-label="Please select a registration status..." id="registration" name="registration">
                                             <option selected disabled>Please select a registration status...</option>
                                             <option value="valid">Valid</option>
                                             <option value="invalid">In-valid</option>
@@ -200,12 +200,12 @@
                                     </div>
                                     <div class="form-group">
                                         <select class="form-control form-select"
-                                            aria-label="Please select a registration status...">
+                                            aria-label="Please select the registered owner..." id="owner" name="owner">
                                             <option selected disabled>Please select the registered owner...</option>
                                             <option value="1">Mark Wolfy</option>
                                         </select>
                                     </div>
-                                    <a href="index.html" class="btn btn-primary btn-user btn-block">Create</a>
+                                    <input type="submit" class="btn btn-primary btn-user btn-block" value="Create">
                                 </form>
                             </div>
                         </div>
@@ -228,15 +228,15 @@
                     number.</p>
                 <form class="user">
                     <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp"
-                            placeholder="Name/Plate/Serial">
+                        <input type="text" class="form-control" id="search" name="search"
+                            placeholder="Name/Plate/Serial" >
+                        <p id="searchResults"></p>
                     </div>
-                    <a href="index.html" class="btn btn-primary btn-user btn-block">
-                        Lookup
-                    </a>
-                    <button type="button" class="btn btn-secondary btn-user btn-block"
-                        data-bs-dismiss="modal">Close</button>
                 </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-user btn-block"
+                        data-bs-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
@@ -288,5 +288,21 @@ $("#datepicker").datepicker({
     changeMonth: true,
     changeYear: true,
     yearRange: "-100:-18"
+});
+
+$("#search").keyup(function() {
+    if(!$("#search").val()) {
+        $("#searchResults").html("");
+    } else {
+        $.ajax({    
+            type: "POST",
+            url: "/search",             
+            dataType: "html",
+            data: { search: $("#search").val() },
+            success: function(data){
+                $("#searchResults").html(data);
+            }
+        });
+    }
 });
 </script>
