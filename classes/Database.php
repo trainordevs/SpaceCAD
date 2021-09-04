@@ -16,7 +16,7 @@
             $this->cache = array();
         }
         
-        function getPreparedStatment($query) {
+        function getPreparedStatement($query) {
             $hash = md5($query);
             if(!isset($this->cache[$hash])) {
                 $this->cache[$hash] = $this->prepare($query);
