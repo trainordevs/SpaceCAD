@@ -12,7 +12,7 @@ Please feel free to make pull requests and create issues. If you feel there are 
 
 - [x] Civilian Creation.
 - [x] Vehicle Creation.
-- [ ] Firearm Creation.
-- [ ] Search for civilian/vehicle/firearm.
+- [x] Firearm Creation.
+- [x] Search for civilian/vehicle/firearm.
 - [ ] BOLO Creation.
 - [ ] Differentiate for admin and police accounts.
