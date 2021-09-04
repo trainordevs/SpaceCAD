@@ -78,6 +78,20 @@
 
             return self::get($query, $condition);
         }
+
+        static function getLike($condition) {
+            $query = "SELECT * FROM " . static::$tableName . " WHERE";
+            foreach ($condition as $key => $value) {
+                $query .= " " . $key . " LIKE '" . $value . "%' AND ";
+            }
+            $query = rtrim($query, ' AND ');
+
+            $db = Database::getInstance();
+            $s = $db->prepare($query);
+            $s->execute();
+            $result = $s->fetchAll(PDO::FETCH_ASSOC);
+            return $result;
+        }
         
         static function get($query, $condition = array()) {
             $db = Database::getInstance();
