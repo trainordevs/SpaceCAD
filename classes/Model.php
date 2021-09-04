@@ -16,8 +16,21 @@
             return $this->columns[$column];
         }
 
+        function create(array $data) {
+            $query = "INSERT INTO " . static::$tableName . " (" . implode(",", array_keys($data)) . ") VALUES (";
+            
+            $keys = array();
+            foreach ($data as $key => $value) {
+                $keys[":" . $key] = $value;
+            }
+
+            $query .= implode(',', array_keys($keys)) . ")";
+            $db = Database::getInstance();
+            $s = $db->getPreparedStatement($query);
+            $s->execute($keys);
+        }
+
         function save() {
-            $class = get_called_class();
             $query = "REPLACE INTO " . static::$tableName . " (" . implode(",", array_keys($this->columns)) . ") VALUES (";
             
             $keys = array();
@@ -32,10 +45,9 @@
         }
 
         function delete() {
-            $class = get_called_class();
             $query = "DELETE FROM " . static::$tableName . " WHERE " . static::$primaryKey . "=:id LIMIT 1";
             $db = Database::getInstance();
-            $s = $db->getPreparedStatment($query);
+            $s = $db->getPreparedStatement($query);
             $s->execute(array(':id' => $this->columns[static::$primaryKey]));
         }
         
@@ -69,7 +81,7 @@
         
         static function get($query, $condition = array()) {
             $db = Database::getInstance();
-            $s = $db->getPreparedStatment($query);
+            $s = $db->getPreparedStatement($query);
             foreach ($condition as $key => $value) {
                 $condition[':' . $key] = $value;
                 unset($condition[$key]);
@@ -102,7 +114,7 @@
                 $query .= " LIMIT " . $startIndex . ",1";
             }
             $db = Database::getInstance();
-            $s = $db->getPreparedStatment($query);
+            $s = $db->getPreparedStatement($query);
             foreach ($condition as $key => $value) {
                 $condition[':' . $key] = $value;
                 unset($condition[$key]);
@@ -132,7 +144,7 @@
             }
             $query = rtrim($query,' AND ');
             $db = Database::getInstance();
-            $s = $db->getPreparedStatment($query);
+            $s = $db->getPreparedStatement($query);
             foreach ($condition as $key => $value) {
                 $condition[':' . $key] = $value;
                 unset($condition[$key]);
