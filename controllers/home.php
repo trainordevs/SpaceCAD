@@ -6,89 +6,37 @@
             self::CreateView('home');
         }
 
-        public static function createCivilian() {
-            $fields = array('fullName', 'gender', 'datepicker', 'license');
+        public static function createBOLO() {
+            $fields = array('type', 'lkl', 'wantedDesc');
             foreach ($fields as $field) {
                 if(!isset($_POST[$field]) || is_null($_POST[$field]) || empty($_POST[$field])) {
-                    FlashMessage::setError("Create Civilian: Please fill out the entire form.", '/');
+                    FlashMessage::setError("Create BOLO: Please fill out the entire form.", '/');
                     die();
                 }
             }
 
             try {
-                $civilian = new Civilian();
-                $civilian->create([
-                    'fullname' => htmlentities($_POST['fullName'], ENT_QUOTES, 'UTF-8'),
-                    'gender' => htmlentities($_POST['gender'], ENT_QUOTES, 'UTF-8'),
-                    'dob' => htmlentities($_POST['datepicker'], ENT_QUOTES, 'UTF-8'),
-                    'license' => htmlentities($_POST['license'], ENT_QUOTES, 'UTF-8'),
-                ]);
-                FlashMessage::setSuccess("Create Civilian: Civilian saved.", '/');
-            } catch (Exception $e) {
-                FlashMessage::setError("Create Civilian: There was an error creating the civilian.", '/');
-            }
-        }
-
-        public static function createVehicle() {
-            $fields = array('plateNo', 'make', 'model', 'registration', 'insurance', 'owner');
-            foreach ($fields as $field) {
-                if(!isset($_POST[$field]) || is_null($_POST[$field]) || empty($_POST[$field])) {
-                    FlashMessage::setError("Create Vehicle: Please fill out the entire form.", '/');
-                    die();
-                }
-            }
-
-            try {
-                $vehicle = new Vehicle();
-                $vehicle->create([
-                    'plate' => htmlentities($_POST['plateNo'], ENT_QUOTES, 'UTF-8'),
-                    'make' => htmlentities($_POST['make'], ENT_QUOTES, 'UTF-8'),
-                    'model' => htmlentities($_POST['model'], ENT_QUOTES, 'UTF-8'),
-                    'registration' => htmlentities($_POST['registration'], ENT_QUOTES, 'UTF-8'),
-                    'insurance' => htmlentities($_POST['insurance'], ENT_QUOTES, 'UTF-8'),
-                    'owner' => htmlentities($_POST['owner'], ENT_QUOTES, 'UTF-8'),
-                ]);
-                FlashMessage::setSuccess("Create Vehicle: Vehicle saved.", '/');
-            } catch (Exception $e) {
-                FlashMessage::setError("Create Vehicle: There was an error creating the vehicle.", '/');
-            }
-        }
-
-        public static function createFirearm() {
-            $fields = array('serial', 'type', 'registration', 'owner');
-            foreach ($fields as $field) {
-                if(!isset($_POST[$field]) || is_null($_POST[$field]) || empty($_POST[$field])) {
-                    FlashMessage::setError("Create Firearm: Please fill out the entire form.", '/');
-                    die();
-                }
-            }
-
-            try {
-                $firearm = new Firearm();
-                $firearm->create([
-                    'serial' => htmlentities($_POST['serial'], ENT_QUOTES, 'UTF-8'),
+                $bolo = new BOLO();
+                $bolo->create([
                     'type' => htmlentities($_POST['type'], ENT_QUOTES, 'UTF-8'),
-                    'registration' => htmlentities($_POST['registration'], ENT_QUOTES, 'UTF-8'),
-                    'owner' => htmlentities($_POST['owner'], ENT_QUOTES, 'UTF-8'),
+                    'lkl' => htmlentities($_POST['lkl'], ENT_QUOTES, 'UTF-8'),
+                    'description' => htmlentities($_POST['wantedDesc'], ENT_QUOTES, 'UTF-8'),
+                    'active' => 'True'
                 ]);
-                FlashMessage::setSuccess("Create Firearm: Firearm saved.", '/');
+                FlashMessage::setSuccess("Create BOLO: BOLO saved.", '/');
             } catch (Exception $e) {
-                FlashMessage::setError("Create Firearm: There was an error creating the firearm.", '/');
+                FlashMessage::setError("Create BOLO: There was an error creating the BOLO.", '/');
             }
+        }
+
+        public static function clearBolo() {
+            $bolo = BOLO::getOne(['id' => $_POST['id']]);
+            $bolo->setActive('False');
+            $bolo->save();
+            FlashMessage::setSuccess("Clear BOLO: BOLO cleared.", '/');
         }
 
         public static function random_slogan() {
-            $slogans = [
-                "Homicide: Our day starts when yours ends.",
-                "Our Colors Never Run.",
-                "One Family. One Fight.",
-                "P.I.G.: Pride, Integrity, Guts.",
-                "Live with Honor, Serve with Pride.",
-                "To Protect and Serve.",
-                "Proud to Serve.",
-                "Justice for All."
-            ];
-            
-            return $slogans[rand(0, (count($slogans) - 1))];
+            return SLOGANS[rand(0, (count(SLOGANS) - 1))];
         }
     }
