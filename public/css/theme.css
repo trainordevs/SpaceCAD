@@ -16,19 +16,26 @@ textarea {
   }
 }
 
-#wrapper #content-wrapper, html, body {
-  background-color: #011A36;
+#wrapper #content-wrapper,
+html,
+body {
+  background-color: #011a36;
   color: #ffffff;
 }
 
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled):active {
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled):active {
   color: #000000;
-  background-color: #F5B535;
-  border-color: #F5B535;
+  background-color: #f5b535;
+  border-color: #f5b535;
 }
 
-a, a:hover {
-  color: #F5B535;
+a,
+a:hover {
+  color: #f5b535;
   text-decoration: none;
 }
 
@@ -43,6 +50,26 @@ a, a:hover {
 
 hr {
   height: 2px;
-  background-color: #F5B535;
+  background-color: #f5b535;
   border: none;
+}
+
+.bolo {
+  width: 100%;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.bolo th {
+  color: #f5b535;
+}
+
+.bolo,
+.bolo tr {
+  border: 1px solid #f5b535;
+}
+
+.bolo th,
+.bolo td {
+  padding: 5px 0;
 }
