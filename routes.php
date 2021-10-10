@@ -12,11 +12,19 @@
     });
 
     Route::set('search', function() {
-        Home::search();
+        Search::init();
     });
 
-    Route::set('about', function() {
-        About::CreateView('about');
+    Route::set('search/firearms', function() {
+        Search::searchFirearms();
+    });
+
+    Route::set('search/civilians', function() {
+        Search::searchCivilians();
+    });
+
+    Route::set('search/vehicles', function() {
+        Search::searchVehicles();
     });
 
     Route::set('account/login', function() {
