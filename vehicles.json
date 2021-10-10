@@ -1,0 +1,2577 @@
+[
+    {
+      "Name": "Dinghy",
+      "Code": 1033245328,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Dinghy2",
+      "Code": 276773164,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Dinghy3",
+      "Code": 509498602,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Dinghy4",
+      "Code": 867467158,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Jetmax",
+      "Code": 861409633,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Marquis",
+      "Code": -1043459709,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Seashark",
+      "Code": -1030275036,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Seashark2",
+      "Code": -616331036,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Seashark3",
+      "Code": -311022263,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Speeder",
+      "Code": 231083307,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Speeder2",
+      "Code": 437538602,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Squalo",
+      "Code": 400514754,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Submersible",
+      "Code": 771711535,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Submersible2",
+      "Code": -1066334226,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Suntrap",
+      "Code": -282946103,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Toro",
+      "Code": 1070967343,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Toro2",
+      "Code": 908897389,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Tropic",
+      "Code": 290013743,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Tropic2",
+      "Code": 1448677353,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Tug",
+      "Code": -2100640717,
+      "Type": "Boats"
+    },
+    {
+      "Name": "Benson",
+      "Code": 2053223216,
+      "Type": "Commercials"
+    },
+    {
+      "Name": "Biff",
+      "Code": 850991848,
+      "Type": "Commercials"
+    },
+    {
+      "Name": "Hauler",
+      "Code": 1518533038,
+      "Type": "Commercials"
+    },
+    {
+      "Name": "Hauler2",
+      "Code": 387748548,
+      "Type": "Commercials"
+    },
+    {
+      "Name": "Mule",
+      "Code": 904750859,
+      "Type": "Commercials"
+    },
+    {
+      "Name": "Mule2",
+      "Code": -1050465301,
+      "Type": "Commercials"
+    },
+    {
+      "Name": "Mule3",
+      "Code": -2052737935,
+      "Type": "Commercials"
+    },
+    {
+      "Name": "Packer",
+      "Code": 569305213,
+      "Type": "Commercials"
+    },
+    {
+      "Name": "Phantom",
+      "Code": -2137348917,
+      "Type": "Commercials"
+    },
+    {
+      "Name": "Phantom2",
+      "Code": -1649536104,
+      "Type": "Commercials"
+    },
+    {
+      "Name": "Phantom3",
+      "Code": 177270108,
+      "Type": "Commercials"
+    },
+    {
+      "Name": "Pounder",
+      "Code": 2112052861,
+      "Type": "Commercials"
+    },
+    {
+      "Name": "Stockade",
+      "Code": 1747439474,
+      "Type": "Commercials"
+    },
+    {
+      "Name": "Stockade3",
+      "Code": -214455498,
+      "Type": "Commercials"
+    },
+    {
+      "Name": "Blista",
+      "Code": -344943009,
+      "Type": "Compacts"
+    },
+    {
+      "Name": "Blista2",
+      "Code": 1039032026,
+      "Type": "Compacts"
+    },
+    {
+      "Name": "Blista3",
+      "Code": -591651781,
+      "Type": "Compacts"
+    },
+    {
+      "Name": "Brioso",
+      "Code": 1549126457,
+      "Type": "Compacts"
+    },
+    {
+      "Name": "Dilettante",
+      "Code": -1130810103,
+      "Type": "Compacts"
+    },
+    {
+      "Name": "Dilettante2",
+      "Code": 1682114128,
+      "Type": "Compacts"
+    },
+    {
+      "Name": "Issi2",
+      "Code": -1177863319,
+      "Type": "Compacts"
+    },
+    {
+      "Name": "Panto",
+      "Code": -431692672,
+      "Type": "Compacts"
+    },
+    {
+      "Name": "Prairie",
+      "Code": -1450650718,
+      "Type": "Compacts"
+    },
+    {
+      "Name": "Rhapsody",
+      "Code": 841808271,
+      "Type": "Compacts"
+    },
+    {
+      "Name": "CogCabrio",
+      "Code": 330661258,
+      "Type": "Coupes"
+    },
+    {
+      "Name": "Exemplar",
+      "Code": -5153954,
+      "Type": "Coupes"
+    },
+    {
+      "Name": "F620",
+      "Code": -591610296,
+      "Type": "Coupes"
+    },
+    {
+      "Name": "Felon",
+      "Code": -391594584,
+      "Type": "Coupes"
+    },
+    {
+      "Name": "Felon2",
+      "Code": -89291282,
+      "Type": "Coupes"
+    },
+    {
+      "Name": "Jackal",
+      "Code": -624529134,
+      "Type": "Coupes"
+    },
+    {
+      "Name": "Oracle",
+      "Code": 1348744438,
+      "Type": "Coupes"
+    },
+    {
+      "Name": "Oracle2",
+      "Code": -511601230,
+      "Type": "Coupes"
+    },
+    {
+      "Name": "Sentinel",
+      "Code": 1349725314,
+      "Type": "Coupes"
+    },
+    {
+      "Name": "Sentinel2",
+      "Code": 873639469,
+      "Type": "Coupes"
+    },
+    {
+      "Name": "Windsor",
+      "Code": 1581459400,
+      "Type": "Coupes"
+    },
+    {
+      "Name": "Windsor2",
+      "Code": -1930048799,
+      "Type": "Coupes"
+    },
+    {
+      "Name": "Zion",
+      "Code": -1122289213,
+      "Type": "Coupes"
+    },
+    {
+      "Name": "Zion2",
+      "Code": -1193103848,
+      "Type": "Coupes"
+    },
+    {
+      "Name": "Bmx",
+      "Code": 1131912276,
+      "Type": "Cycles"
+    },
+    {
+      "Name": "Cruiser",
+      "Code": 448402357,
+      "Type": "Cycles"
+    },
+    {
+      "Name": "Fixter",
+      "Code": -836512833,
+      "Type": "Cycles"
+    },
+    {
+      "Name": "Scorcher",
+      "Code": -186537451,
+      "Type": "Cycles"
+    },
+    {
+      "Name": "TriBike",
+      "Code": 1127861609,
+      "Type": "Cycles"
+    },
+    {
+      "Name": "TriBike2",
+      "Code": -1233807380,
+      "Type": "Cycles"
+    },
+    {
+      "Name": "TriBike3",
+      "Code": -400295096,
+      "Type": "Cycles"
+    },
+    {
+      "Name": "Ambulance",
+      "Code": 1171614426,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "FBI",
+      "Code": 1127131465,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "FBI2",
+      "Code": -1647941228,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "FireTruck",
+      "Code": 1938952078,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "PBus",
+      "Code": -2007026063,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "Police",
+      "Code": 2046537925,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "Police2",
+      "Code": -1627000575,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "Police3",
+      "Code": 1912215274,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "Police4",
+      "Code": -1973172295,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "PoliceOld1",
+      "Code": -1536924937,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "PoliceOld2",
+      "Code": -1779120616,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "PoliceT",
+      "Code": 456714581,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "Policeb",
+      "Code": -34623805,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "Polmav",
+      "Code": 353883353,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "Pranger",
+      "Code": 741586030,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "Predator",
+      "Code": -488123221,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "Riot",
+      "Code": -1205689942,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "Sheriff",
+      "Code": -1683328900,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "Sheriff2",
+      "Code": 1922257928,
+      "Type": "Emergency"
+    },
+    {
+      "Name": "Annihilator",
+      "Code": 837858166,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Buzzard",
+      "Code": 788747387,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Buzzard2",
+      "Code": 745926877,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Cargobob",
+      "Code": -50547061,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Cargobob2",
+      "Code": 1621617168,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Cargobob3",
+      "Code": 1394036463,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Cargobob4",
+      "Code": 2025593404,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Frogger",
+      "Code": 744705981,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Frogger2",
+      "Code": 1949211328,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Maverick",
+      "Code": -1660661558,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Savage",
+      "Code": -82626025,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Skylift",
+      "Code": 1044954915,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Supervolito",
+      "Code": 710198397,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Supervolito2",
+      "Code": -1671539132,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Swift",
+      "Code": -339587598,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Swift2",
+      "Code": 1075432268,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Valkyrie",
+      "Code": -1600252419,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Valkyrie2",
+      "Code": 1543134283,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Volatus",
+      "Code": -1845487887,
+      "Type": "Helicopters"
+    },
+    {
+      "Name": "Bulldozer",
+      "Code": 1886712733,
+      "Type": "Industrial"
+    },
+    {
+      "Name": "Cutter",
+      "Code": -1006919392,
+      "Type": "Industrial"
+    },
+    {
+      "Name": "Dump",
+      "Code": -2130482718,
+      "Type": "Industrial"
+    },
+    {
+      "Name": "Flatbed",
+      "Code": 1353720154,
+      "Type": "Industrial"
+    },
+    {
+      "Name": "Guardian",
+      "Code": -2107990196,
+      "Type": "Industrial"
+    },
+    {
+      "Name": "Handler",
+      "Code": 444583674,
+      "Type": "Industrial"
+    },
+    {
+      "Name": "Mixer",
+      "Code": -784816453,
+      "Type": "Industrial"
+    },
+    {
+      "Name": "Mixer2",
+      "Code": 475220373,
+      "Type": "Industrial"
+    },
+    {
+      "Name": "Rubble",
+      "Code": -1705304628,
+      "Type": "Industrial"
+    },
+    {
+      "Name": "TipTruck",
+      "Code": 48339065,
+      "Type": "Industrial"
+    },
+    {
+      "Name": "TipTruck2",
+      "Code": -947761570,
+      "Type": "Industrial"
+    },
+    {
+      "Name": "APC",
+      "Code": 562680400,
+      "Type": "Military"
+    },
+    {
+      "Name": "Barracks",
+      "Code": -823509173,
+      "Type": "Military"
+    },
+    {
+      "Name": "Barracks2",
+      "Code": 1074326203,
+      "Type": "Military"
+    },
+    {
+      "Name": "Barracks3",
+      "Code": 630371791,
+      "Type": "Military"
+    },
+    {
+      "Name": "Crusader",
+      "Code": 321739290,
+      "Type": "Military"
+    },
+    {
+      "Name": "Halftrack",
+      "Code": -32236122,
+      "Type": "Military"
+    },
+    {
+      "Name": "Rhino",
+      "Code": 782665360,
+      "Type": "Military"
+    },
+    {
+      "Name": "Trailersmall2",
+      "Code": -1881846085,
+      "Type": "Military"
+    },
+    {
+      "Name": "Akuma",
+      "Code": 1672195559,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Avarus",
+      "Code": -2115793025,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Bagger",
+      "Code": -2140431165,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Bati2",
+      "Code": -891462355,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Bati",
+      "Code": -114291515,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "BF400",
+      "Code": 86520421,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Blazer4",
+      "Code": -440768424,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "CarbonRS",
+      "Code": 11251904,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Chimera",
+      "Code": 6774487,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Cliffhanger",
+      "Code": 390201602,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Daemon2",
+      "Code": -1404136503,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Daemon",
+      "Code": 2006142190,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Defiler",
+      "Code": 822018448,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Double",
+      "Code": -1670998136,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Enduro",
+      "Code": 1753414259,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Esskey",
+      "Code": 2035069708,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Faggio",
+      "Code": -1842748181,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Faggio2",
+      "Code": 55628203,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Faggio3",
+      "Code": -1289178744,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Fcr2",
+      "Code": -757735410,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Fcr",
+      "Code": 627535535,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Gargoyle",
+      "Code": 741090084,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Hakuchou2",
+      "Code": -255678177,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Hakuchou",
+      "Code": 1265391242,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Hexer",
+      "Code": 301427732,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Innovation",
+      "Code": -159126838,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Lectro",
+      "Code": 640818791,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Manchez",
+      "Code": -1523428744,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Nemesis",
+      "Code": -634879114,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Nightblade",
+      "Code": -1606187161,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Opressor",
+      "Code": 884483972,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "PCJ",
+      "Code": -909201658,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Ratbike",
+      "Code": 1873600305,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Ruffian",
+      "Code": -893578776,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Sanchez2",
+      "Code": -1453280962,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Sanchez",
+      "Code": 788045382,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Sanctus",
+      "Code": 1491277511,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Shotaro",
+      "Code": -405626514,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Sovereign",
+      "Code": 743478836,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Thrust",
+      "Code": 1836027715,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Vader",
+      "Code": -140902153,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Vindicator",
+      "Code": -1353081087,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Vortex",
+      "Code": -609625092,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Wolfsbane",
+      "Code": -618617997,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Zombiea",
+      "Code": -1009268949,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Zombieb",
+      "Code": -570033273,
+      "Type": "Motorcycles"
+    },
+    {
+      "Name": "Blade",
+      "Code": -1205801634,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Buccaneer",
+      "Code": -682211828,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Buccaneer2",
+      "Code": -1013450936,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Chino",
+      "Code": 349605904,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Chino2",
+      "Code": -1361687965,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Dominator",
+      "Code": 80636076,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Dominator2",
+      "Code": -915704871,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Dukes",
+      "Code": 723973206,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Dukes2",
+      "Code": -326143852,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Faction",
+      "Code": -2119578145,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Faction2",
+      "Code": -1790546981,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Faction3",
+      "Code": -2039755226,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Gauntlet",
+      "Code": -1800170043,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Gauntlet2",
+      "Code": 349315417,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Hotknife",
+      "Code": 37348240,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Lurcher",
+      "Code": 2068293287,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Moonbeam",
+      "Code": 525509695,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Moonbeam2",
+      "Code": 1896491931,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Nightshade",
+      "Code": -1943285540,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Phoenix",
+      "Code": -2095439403,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Picador",
+      "Code": 1507916787,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "RatLoader",
+      "Code": -667151410,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "RatLoader2",
+      "Code": -589178377,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Ruiner",
+      "Code": -227741703,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Ruiner2",
+      "Code": 941494461,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "SabreGT",
+      "Code": -1685021548,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "SabreGT2",
+      "Code": 223258115,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Sadler2",
+      "Code": 734217681,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "SlamVan",
+      "Code": 729783779,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "SlamVan2",
+      "Code": 833469436,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "SlamVan3",
+      "Code": 1119641113,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Stalion",
+      "Code": 1923400478,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Stalion2",
+      "Code": -401643538,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Tampa",
+      "Code": 972671128,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Tampa3",
+      "Code": -1210451983,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Vigero",
+      "Code": -825837129,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Virgo",
+      "Code": -498054846,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Virgo2",
+      "Code": -899509638,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Virgo3",
+      "Code": 16646064,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Voodoo",
+      "Code": 2006667053,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "Voodoo2",
+      "Code": 523724515,
+      "Type": "Muscle"
+    },
+    {
+      "Name": "BfInjection",
+      "Code": 1126868326,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Bifta",
+      "Code": -349601129,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Blazer",
+      "Code": -2128233223,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Blazer2",
+      "Code": -48031959,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Blazer3",
+      "Code": -1269889662,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Blazer5",
+      "Code": -1590337689,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Bodhi2",
+      "Code": -1435919434,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Brawler",
+      "Code": -1479664699,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "DLoader",
+      "Code": 1770332643,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Dune",
+      "Code": -1661854193,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Dune2",
+      "Code": 534258863,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Dune3",
+      "Code": 1897744184,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Dune4",
+      "Code": -827162039,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Dune5",
+      "Code": -827162039,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Insurgent",
+      "Code": -1860900134,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Insurgent2",
+      "Code": 2071877360,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Insurgent3",
+      "Code": -1924433270,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Kalahari",
+      "Code": 92612664,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Lguard",
+      "Code": 469291905,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Marshall",
+      "Code": 1233534620,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Mesa",
+      "Code": 914654722,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Mesa2",
+      "Code": -748008636,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Mesa3",
+      "Code": -2064372143,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Monster",
+      "Code": -845961253,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Nightshark",
+      "Code": 433954513,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "RancherXL",
+      "Code": 1645267888,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "RancherXL2",
+      "Code": 1933662059,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Rebel",
+      "Code": -1207771834,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Rebel2",
+      "Code": -2045594037,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Sandking",
+      "Code": -1189015600,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Sandking2",
+      "Code": 989381445,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Technical",
+      "Code": -2096818938,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Technical2",
+      "Code": 1180875963,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Technical3",
+      "Code": 1356124575,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "TrophyTruck",
+      "Code": 101905590,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "TrophyTruck2",
+      "Code": -663299102,
+      "Type": "Off-Road"
+    },
+    {
+      "Name": "Besra",
+      "Code": 1824333165,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Blimp",
+      "Code": -150975354,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Blimp2",
+      "Code": -613725916,
+      "Type": "Planes"
+    },
+    {
+      "Name": "CargoPlane",
+      "Code": 368211810,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Cuban800",
+      "Code": -644710429,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Dodo",
+      "Code": -901163259,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Duster",
+      "Code": 970356638,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Hydra",
+      "Code": 970385471,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Jet",
+      "Code": 1058115860,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Lazer",
+      "Code": -1281684762,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Luxor",
+      "Code": 621481054,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Luxor2",
+      "Code": -1214293858,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Mammatus",
+      "Code": -1746576111,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Miljet",
+      "Code": 165154707,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Nimbus",
+      "Code": -1295027632,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Shamal",
+      "Code": -1214505995,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Stunt",
+      "Code": -2122757008,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Titan",
+      "Code": 1981688531,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Velum",
+      "Code": -1673356438,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Velum2",
+      "Code": 1077420264,
+      "Type": "Planes"
+    },
+    {
+      "Name": "Vestra",
+      "Code": 1341619767,
+      "Type": "Planes"
+    },
+    {
+      "Name": "BJXL",
+      "Code": 850565707,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Baller",
+      "Code": -808831384,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Baller2",
+      "Code": 142944341,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Baller3",
+      "Code": 1878062887,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Baller4",
+      "Code": 634118882,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Baller5",
+      "Code": 470404958,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Baller6",
+      "Code": 666166960,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Cavalcade",
+      "Code": 2006918058,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Cavalcade2",
+      "Code": -789894171,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Contender",
+      "Code": 683047626,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Dubsta",
+      "Code": 1177543287,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Dubsta2",
+      "Code": -394074634,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Dubsta3",
+      "Code": -1237253773,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "FQ2",
+      "Code": -1137532101,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Granger",
+      "Code": -1775728740,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Gresley",
+      "Code": -1543762099,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Habanero",
+      "Code": 884422927,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Huntley",
+      "Code": 486987393,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Landstalker",
+      "Code": 1269098716,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Patriot",
+      "Code": -808457413,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Radi",
+      "Code": -1651067813,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Rocoto",
+      "Code": 2136773105,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Seminole",
+      "Code": 1221512915,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "Serrano",
+      "Code": 1337041428,
+      "Type": "SUVs"
+    },
+    {
+      "Name": "XLS",
+      "Code": 1203490606,
+      "Type": "SUV's"
+    },
+    {
+      "Name": "XLS2",
+      "Code": -432008408,
+      "Type": "SUV's"
+    },
+    {
+      "Name": "Asea",
+      "Code": -1809822327,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Asea2",
+      "Code": -1807623979,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Asterope",
+      "Code": -1903012613,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Cog55",
+      "Code": 906642318,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Cog552",
+      "Code": 704435172,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Cognoscenti",
+      "Code": -2030171296,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Cognoscenti2",
+      "Code": -604842630,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Emperor",
+      "Code": -685276541,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Emperor2",
+      "Code": -1883002148,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Emperor3",
+      "Code": -1241712818,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Fugitive",
+      "Code": 1909141499,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Glendale",
+      "Code": 75131841,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Ingot",
+      "Code": -1289722222,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Intruder",
+      "Code": 886934177,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Limo2",
+      "Code": -114627507,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Premier",
+      "Code": -1883869285,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Primo",
+      "Code": -1150599089,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Primo2",
+      "Code": -2040426790,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Regina",
+      "Code": -14495224,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Romero",
+      "Code": 627094268,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Stanier",
+      "Code": -1477580979,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Stratum",
+      "Code": 1723137093,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Stretch",
+      "Code": -1961627517,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Surge",
+      "Code": -1894894188,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Tailgater",
+      "Code": -1008861746,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Warrener",
+      "Code": 1373123368,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Washington",
+      "Code": 1777363799,
+      "Type": "Sedans"
+    },
+    {
+      "Name": "Airbus",
+      "Code": 1283517198,
+      "Type": "Service"
+    },
+    {
+      "Name": "Brickade",
+      "Code": -305727417,
+      "Type": "Service"
+    },
+    {
+      "Name": "Bus",
+      "Code": -713569950,
+      "Type": "Service"
+    },
+    {
+      "Name": "Coach",
+      "Code": -2072933068,
+      "Type": "Service"
+    },
+    {
+      "Name": "Rallytruck",
+      "Code": -2103821244,
+      "Type": "Service"
+    },
+    {
+      "Name": "RentalBus",
+      "Code": -1098802077,
+      "Type": "Service"
+    },
+    {
+      "Name": "Taxi",
+      "Code": -956048545,
+      "Type": "Service"
+    },
+    {
+      "Name": "Tourbus",
+      "Code": 1941029835,
+      "Type": "Service"
+    },
+    {
+      "Name": "Trash",
+      "Code": 1917016601,
+      "Type": "Service"
+    },
+    {
+      "Name": "Trash2",
+      "Code": -1255698084,
+      "Type": "Service"
+    },
+    {
+      "Name": "Alpha",
+      "Code": 767087018,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Banshee",
+      "Code": -1041692462,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Banshee2",
+      "Code": 633712403,
+      "Type": "Sports"
+    },
+    {
+      "Name": "BestiaGTS",
+      "Code": 1274868363,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Buffalo",
+      "Code": -304802106,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Buffalo2",
+      "Code": 736902334,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Buffalo3",
+      "Code": 237764926,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Carbonizzare",
+      "Code": 2072687711,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Comet2",
+      "Code": -1045541610,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Comet3",
+      "Code": -2022483795,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Coquette",
+      "Code": 108773431,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Elegy",
+      "Code": 196747873,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Elegy2",
+      "Code": -566387422,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Feltzer2",
+      "Code": -1995326987,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Feltzer3",
+      "Code": -1566741232,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Furoregt",
+      "Code": -1089039904,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Fusilade",
+      "Code": 499169875,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Futo",
+      "Code": 2016857647,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Infernus2",
+      "Code": -1405937764,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Jester",
+      "Code": -1297672541,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Jester2",
+      "Code": -1106353882,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Khamelion",
+      "Code": 544021352,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Kuruma",
+      "Code": -1372848492,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Kuruma2",
+      "Code": 410882957,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Lynx",
+      "Code": 482197771,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Massacro",
+      "Code": -142942670,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Massacro2",
+      "Code": -631760477,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Ninef",
+      "Code": 1032823388,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Ninef2",
+      "Code": -1461482751,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Omnis",
+      "Code": -777172681,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Penumbra",
+      "Code": -377465520,
+      "Type": "Sports"
+    },
+    {
+      "Name": "RapidGT",
+      "Code": -1934452204,
+      "Type": "Sports"
+    },
+    {
+      "Name": "RapidGT2",
+      "Code": 1737773231,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Raptor",
+      "Code": -674927303,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Ruston",
+      "Code": 719660200,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Schafter2",
+      "Code": -1255452397,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Schafter3",
+      "Code": -1485523546,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Schafter4",
+      "Code": 1489967196,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Schafter5",
+      "Code": -888242983,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Schafter6",
+      "Code": 1922255844,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Schwarzer",
+      "Code": -746882698,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Seven70",
+      "Code": -1757836725,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Specter",
+      "Code": 1886268224,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Specter2",
+      "Code": 1074745671,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Sultan",
+      "Code": 970598228,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Surano",
+      "Code": 384071873,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Tampa2",
+      "Code": -1071380347,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Tropos",
+      "Code": 1887331236,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Verlierer2",
+      "Code": 1102544804,
+      "Type": "Sports"
+    },
+    {
+      "Name": "Ardent",
+      "Code": 159274291,
+      "Type": "Sports Classic"
+    },
+    {
+      "Name": "BType",
+      "Code": 117401876,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "BType2",
+      "Code": -831834716,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "BType3",
+      "Code": -602287871,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "Casco",
+      "Code": 941800958,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "Cheetah2",
+      "Code": 223240013,
+      "Type": "Sports Classic"
+    },
+    {
+      "Name": "Coquette2",
+      "Code": 1011753235,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "Coquette3",
+      "Code": 784565758,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "JB700",
+      "Code": 1051415893,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "Mamba",
+      "Code": -1660945322,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "Manana",
+      "Code": -2124201592,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "Monroe",
+      "Code": -433375717,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "Peyote",
+      "Code": 1830407356,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "Pigalle",
+      "Code": 1078682497,
+      "Type": "Sports Classic"
+    },
+    {
+      "Name": "Stinger",
+      "Code": 1545842587,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "StingerGT",
+      "Code": -2098947590,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "Torero",
+      "Code": 1504306544,
+      "Type": "Sports Classic"
+    },
+    {
+      "Name": "Tornado",
+      "Code": 464687292,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "Tornado2",
+      "Code": 1531094468,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "Tornado3",
+      "Code": 1762279763,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "Tornado4",
+      "Code": -2033222435,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "Tornado5",
+      "Code": -1797613329,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "Tornado6",
+      "Code": -1558399629,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "ZType",
+      "Code": 75889561,
+      "Type": "Sports Classics"
+    },
+    {
+      "Name": "Adder",
+      "Code": -1216765807,
+      "Type": "Super"
+    },
+    {
+      "Name": "Bullet",
+      "Code": -1696146015,
+      "Type": "Super"
+    },
+    {
+      "Name": "Cheetah",
+      "Code": -1311154784,
+      "Type": "Super"
+    },
+    {
+      "Name": "EntityXF",
+      "Code": -1291952903,
+      "Type": "Super"
+    },
+    {
+      "Name": "FMJ",
+      "Code": 1426219628,
+      "Type": "Super"
+    },
+    {
+      "Name": "GP1",
+      "Code": 1234311532,
+      "Type": "Super"
+    },
+    {
+      "Name": "Infernus",
+      "Code": 418536135,
+      "Type": "Super"
+    },
+    {
+      "Name": "RE7B",
+      "Code": -1232836011,
+      "Type": "Super"
+    },
+    {
+      "Name": "Nero",
+      "Code": 1034187331,
+      "Type": "Super"
+    },
+    {
+      "Name": "Nero2",
+      "Code": 1093792632,
+      "Type": "Super"
+    },
+    {
+      "Name": "Osiris",
+      "Code": 1987142870,
+      "Type": "Super"
+    },
+    {
+      "Name": "Penetrator",
+      "Code": -1758137366,
+      "Type": "Super"
+    },
+    {
+      "Name": "Pfister811",
+      "Code": -1829802492,
+      "Type": "Super"
+    },
+    {
+      "Name": "Prototipo",
+      "Code": 2123327359,
+      "Type": "Super"
+    },
+    {
+      "Name": "Reaper",
+      "Code": 234062309,
+      "Type": "Super"
+    },
+    {
+      "Name": "Sheava",
+      "Code": 819197656,
+      "Type": "Super"
+    },
+    {
+      "Name": "SultanRS",
+      "Code": -295689028,
+      "Type": "Super"
+    },
+    {
+      "Name": "Superd",
+      "Code": 1123216662,
+      "Type": "Super"
+    },
+    {
+      "Name": "T20",
+      "Code": 1663218586,
+      "Type": "Super"
+    },
+    {
+      "Name": "Tempesta",
+      "Code": "272929391Cat.:",
+      "Type": "Import / Export"
+    },
+    {
+      "Name": "Turismo2",
+      "Code": -982130927,
+      "Type": "Super"
+    },
+    {
+      "Name": "Turismor",
+      "Code": 408192225,
+      "Type": "Super"
+    },
+    {
+      "Name": "Tyrus",
+      "Code": 2067820283,
+      "Type": "Super"
+    },
+    {
+      "Name": "Vacca",
+      "Code": 338562499,
+      "Type": "Super"
+    },
+    {
+      "Name": "Vagner",
+      "Code": 1939284556,
+      "Type": "Super"
+    },
+    {
+      "Name": "Voltic",
+      "Code": -1622444098,
+      "Type": "Super"
+    },
+    {
+      "Name": "Voltic2",
+      "Code": 989294410,
+      "Type": "Super"
+    },
+    {
+      "Name": "Zentorno",
+      "Code": -1403128555,
+      "Type": "Super"
+    },
+    {
+      "Name": "Italigtb",
+      "Code": -2048333973,
+      "Type": "Super"
+    },
+    {
+      "Name": "Italigtb2",
+      "Code": -482719877,
+      "Type": "Super"
+    },
+    {
+      "Name": "XA21",
+      "Code": 917809321,
+      "Type": "Super"
+    },
+    {
+      "Name": "ArmyTanker",
+      "Code": -1207431159,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "ArmyTrailer",
+      "Code": -1476447243,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "ArmyTrailer2",
+      "Code": -1637149482,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "BaleTrailer",
+      "Code": -399841706,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "BoatTrailer",
+      "Code": 524108981,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "CableCar",
+      "Code": -960289747,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "DockTrailer",
+      "Code": -2140210194,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "GrainTrailer",
+      "Code": 1019737494,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "PropTrailer",
+      "Code": 356391690,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "RakeTrailer",
+      "Code": 390902130,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "TR2",
+      "Code": 2078290630,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "TR3",
+      "Code": 1784254509,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "TR4",
+      "Code": 2091594960,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "TRFlat",
+      "Code": -1352468814,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "TVTrailer",
+      "Code": -1770643266,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "Tanker",
+      "Code": -730904777,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "Tanker2",
+      "Code": 1956216962,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "TrailerLogs",
+      "Code": 2016027501,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "TrailerSmall",
+      "Code": 712162987,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "Trailers",
+      "Code": -877478386,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "Trailers2",
+      "Code": -1579533167,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "Trailers3",
+      "Code": -2058878099,
+      "Type": "Trailer"
+    },
+    {
+      "Name": "Freight",
+      "Code": 1030400667,
+      "Type": "Trains"
+    },
+    {
+      "Name": "FreightCar",
+      "Code": 184361638,
+      "Type": "Trains"
+    },
+    {
+      "Name": "FreightCont1",
+      "Code": 920453016,
+      "Type": "Trains"
+    },
+    {
+      "Name": "FreightCont2",
+      "Code": 240201337,
+      "Type": "Trains"
+    },
+    {
+      "Name": "FreightGrain",
+      "Code": 642617954,
+      "Type": "Trains"
+    },
+    {
+      "Name": "FreightTrailer",
+      "Code": -777275802,
+      "Type": "Trains"
+    },
+    {
+      "Name": "TankerCar",
+      "Code": 586013744,
+      "Type": "Trains"
+    },
+    {
+      "Name": "Airtug",
+      "Code": 1560980623,
+      "Type": "Utility"
+    },
+    {
+      "Name": "Caddy",
+      "Code": 1147287684,
+      "Type": "Utility"
+    },
+    {
+      "Name": "Caddy2",
+      "Code": -537896628,
+      "Type": "Utility"
+    },
+    {
+      "Name": "Caddy3",
+      "Code": -769147461,
+      "Type": "Utility"
+    },
+    {
+      "Name": "Docktug",
+      "Code": -884690486,
+      "Type": "Utility"
+    },
+    {
+      "Name": "Forklift",
+      "Code": 1491375716,
+      "Type": "Utility"
+    },
+    {
+      "Name": "Mower",
+      "Code": 1783355638,
+      "Type": "Utility"
+    },
+    {
+      "Name": "Ripley",
+      "Code": -845979911,
+      "Type": "Utility"
+    },
+    {
+      "Name": "Sadler",
+      "Code": -599568815,
+      "Type": "Utility"
+    },
+    {
+      "Name": "Scrap",
+      "Code": -1700801569,
+      "Type": "Utility"
+    },
+    {
+      "Name": "TowTruck",
+      "Code": -1323100960,
+      "Type": "Utility"
+    },
+    {
+      "Name": "TowTruck2",
+      "Code": -442313018,
+      "Type": "Utility"
+    },
+    {
+      "Name": "Tractor",
+      "Code": 1641462412,
+      "Type": "Utility"
+    },
+    {
+      "Name": "Tractor2",
+      "Code": -2076478498,
+      "Type": "Utility"
+    },
+    {
+      "Name": "Tractor3",
+      "Code": 1445631933,
+      "Type": "Utility"
+    },
+    {
+      "Name": "TrailerLarge",
+      "Code": 1502869817,
+      "Type": "Utility"
+    },
+    {
+      "Name": "TrailerS4",
+      "Code": -1100548694,
+      "Type": "Utility"
+    },
+    {
+      "Name": "UtilliTruck",
+      "Code": 516990260,
+      "Type": "Utility"
+    },
+    {
+      "Name": "UtilliTruck3",
+      "Code": 2132890591,
+      "Type": "Utility"
+    },
+    {
+      "Name": "UtilliTruck2",
+      "Code": 887537515,
+      "Type": "Utility"
+    },
+    {
+      "Name": "Bison",
+      "Code": -16948145,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Bison2",
+      "Code": 2072156101,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Bison3",
+      "Code": 1739845664,
+      "Type": "Vans"
+    },
+    {
+      "Name": "BobcatXL",
+      "Code": 1069929536,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Boxville",
+      "Code": -1987130134,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Boxville2",
+      "Code": -233098306,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Boxville3",
+      "Code": 121658888,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Boxville4",
+      "Code": 444171386,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Boxville5",
+      "Code": 682434785,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Burrito",
+      "Code": -1346687836,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Burrito2",
+      "Code": -907477130,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Burrito3",
+      "Code": -1743316013,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Burrito4",
+      "Code": 893081117,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Burrito5",
+      "Code": 1132262048,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Camper",
+      "Code": 1876516712,
+      "Type": "Vans"
+    },
+    {
+      "Name": "GBurrito",
+      "Code": -1745203402,
+      "Type": "Vans"
+    },
+    {
+      "Name": "GBurrito2",
+      "Code": 296357396,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Journey",
+      "Code": -120287622,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Minivan",
+      "Code": -310465116,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Minivan2",
+      "Code": -1126264336,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Paradise",
+      "Code": 1488164764,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Pony",
+      "Code": -119658072,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Pony2",
+      "Code": 943752001,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Rumpo",
+      "Code": 1162065741,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Rumpo2",
+      "Code": -1776615689,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Rumpo3",
+      "Code": 1475773103,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Speedo",
+      "Code": -810318068,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Speedo2",
+      "Code": 728614474,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Surfer",
+      "Code": 699456151,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Surfer2",
+      "Code": -1311240698,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Taco",
+      "Code": 1951180813,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Youga",
+      "Code": 65402552,
+      "Type": "Vans"
+    },
+    {
+      "Name": "Youga2",
+      "Code": 1026149675,
+      "Type": "Vans"
+    }
+  ]
