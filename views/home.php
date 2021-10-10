@@ -8,7 +8,7 @@
                     <div class='col mr-2 text-center'>
                         <?php
                             if(BOLO::getCount(['active' => 'True']) == 0) {
-                                ?> <div class="text-xs font-weight-bold text-uppercase mb-1">There are no active bolos
+                                ?> <div class="font-weight-bold text-uppercase mb-1">There are no active bolos
                             at this time.</div> <?php
                             } else {
                                 echo "<h3>Active BOLOs [" . BOLO::getCount(['active' => 'True']) . "]</h3>";

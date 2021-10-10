@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Share Tech;
+  src: url(../fonts/ShareTechMono-Regular.ttf);
+}
+
+html,
+body {
+  font-family: Share Tech;
+}
+
 option {
   padding: 0;
 }
