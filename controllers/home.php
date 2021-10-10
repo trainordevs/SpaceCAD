@@ -77,37 +77,18 @@
             }
         }
 
-        public static function search() {
-            $firearms = Firearm::getLike(['serial' => $_POST['search']]);
-            $civilians = Civilian::getLike(['fullname' => $_POST['search']]);
-            $vehicles = Vehicle::getLike(['plate' => $_POST['search']]);
+        public static function random_slogan() {
+            $slogans = [
+                "Homicide: Our day starts when yours ends.",
+                "Our Colors Never Run.",
+                "One Family. One Fight.",
+                "P.I.G.: Pride, Integrity, Guts.",
+                "Live with Honor, Serve with Pride.",
+                "To Protect and Serve.",
+                "Proud to Serve.",
+                "Justice for All."
+            ];
             
-            $result = "<hr>";
-
-            if(!empty($firearms)) {
-                $result .= "<p class='text-center'><strong>Firearms</strong></p>";
-                foreach ($firearms as $firearm) {
-                    $result .= "<p><a href='#'>View</a> - " . $firearm['serial'] . "</p>";
-                }
-                $result .= "<hr>";
-            }
-
-            if(!empty($civilians)) {
-                $result .= "<p class='text-center'><strong>Civilians</strong></p>";
-                foreach ($civilians as $civilian) {
-                    $result .= "<p><a href='#'>View</a> - " . $civilian['fullname'] . " (DOB: " . $civilian['dob'] . ")</p>";
-                }
-                $result .= "<hr>";
-            }
-
-            if(!empty($vehicles)) {
-                $result .= "<p class='text-center'><strong>Vehicles</strong></p>";
-                foreach ($vehicles as $vehicle) {
-                    $result .= "<p><a href='#'>View</a> - " . $vehicle['plate'] . " (" . $vehicle['make'] . " " . $vehicle['model'] . ")</p>";
-                }
-                $result .= "<hr>";
-            }
-
-            echo rtrim($result, '<hr>');
+            return $slogans[rand(0, (count($slogans) - 1))];
         }
     }
