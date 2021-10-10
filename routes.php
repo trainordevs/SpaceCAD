@@ -1,14 +1,10 @@
 <?php
-    Route::set('civilian/create', function() {
-        Home::createCivilian();
+    Route::set('bolo/create', function() {
+        Home::createBOLO();
     });
 
-    Route::set('vehicle/create', function() {
-        Home::createVehicle();
-    });
-
-    Route::set('firearm/create', function() {
-        Home::createFirearm();
+    Route::set('bolo/clear', function() {
+        Home::clearBOLO();
     });
 
     Route::set('search', function() {
