@@ -2,7 +2,18 @@
 
 ## Introduction
 
-SpaceCAD is a simple MDT/CAD system I am creating that can be used by GTA RP servers. This system is completely free to use if self-hosted. There may (or may not be) a cloud hosted version later on in development.
+SpaceCAD is a simple MDT for GTA RP servers.
+
+## Features
+
+- Search civilians.
+- Search cehicles.
+- Create BOLOs.
+- View BOLOs.
+
+## Installation
+
+Please understand that this is a work in progress. You may download it at anytime but mileage may vary.
 
 ## Pull Requests/Issues
 
@@ -10,9 +21,9 @@ Please feel free to make pull requests and create issues. If you feel there are 
 
 ## TODO
 
-- [x] Civilian Creation.
-- [x] Vehicle Creation.
-- [x] Firearm Creation.
 - [x] Search for civilian/vehicle/firearm.
-- [ ] BOLO Creation.
-- [ ] Differentiate for admin and police accounts.
+- [x] BOLO creation.
+- [ ] Report creation.
+- [ ] Warrant creation.
+- [ ] Civilian profiles.
+- [ ] Police personnel accounts (officer, captain, chief)
